@@ -1,0 +1,125 @@
+<!-- Background Changer -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+    <style>
+        *{
+            margin: 0px ;
+            padding: 0px;
+        }
+        body{
+            padding: 50px 100px;
+        }
+        h1{
+            
+            text-align: center;
+            text-decoration: underline;
+        }
+        img{
+            width: 100%;
+            height: auto;
+            margin: auto;
+        }
+        p{
+            text-align: justify;
+        }
+        .btn{
+            height: 20px;
+            width: 20px;
+            display: inline-block;
+            border: 2px solid grey;
+            border-radius: 100%;
+            cursor: pointer;
+        }
+        #color-switcher{
+            text-align: right;
+        }
+        #white{
+            background-color: white;
+        }
+        #cornsilk{
+            background-color: #FFF8DC;
+        }
+        #mintcream{
+            background-color: #F5FFFA;
+        }
+        #black{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="color-switcher">
+
+        <!-- first method -->
+
+        <!-- <span id="white" class="btn"></span>
+        <span id="cornsilk" class="btn"></span>
+        <span id="mintcream" class="btn" ></span>
+        <span id="black" class="btn"></span> -->
+
+        <!-- second method -->
+
+        <span id="white" class="btn" onclick="changeBG('#ffffff')"></span>
+        <span id="cornsilk" class="btn" onclick="changeBG('#FFF8DC')"></span>
+        <span id="mintcream" class="btn" onclick="changeBG('#F5FFFA')"></span>
+        <span id="black" class="btn" onclick="changeBG('#000000')"></span>
+    </div>
+    <h1 class="change">About Us</h1>
+    <img src="1.jpg" alt="here is the image">
+    <p class="change">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempore architecto deserunt quas, voluptatum saepe inventore possimus sapiente exercitationem iusto culpa sed omnis consequatur. Eos necessitatibus magni blanditiis ratione explicabo dicta corporis modi, vero quod provident ipsam excepturi. Neque distinctio tempora non facilis aspernatur est aperiam corporis rerum ipsam, atque consequuntur aliquid culpa impedit velit? Voluptate beatae eius necessitatibus ipsum ex delectus repellat, sapiente autem labore quas reprehenderit tempore tempora inventore velit ea, asperiores, possimus quae amet aliquid enim quis commodi blanditiis porro ipsam. Odio aut earum similique voluptas voluptatum, beatae laboriosam tempore nesciunt excepturi inventore aspernatur, rem dolor sequi accusamus illum tenetur ad consequuntur nihil, explicabo repudiandae amet pariatur. Dolorem maiores, in quibusdam blanditiis doloremque vero a vel officia iure voluptate similique natus accusamus placeat iste asperiores enim fugit. Laborum quasi sapiente deleniti quam officia dolorem! Sint provident iste itaque repellat dolore at cum quam sequi necessitatibus ut tenetur, laboriosam magnam deleniti ab accusantium asperiores adipisci corporis eligendi amet voluptate eos nam officiis ea facere? Rem, beatae minima maxime sequi quaerat quibusdam dolore nemo facilis iusto porro veritatis laudantium sed sit, placeat facere deleniti eum numquam. In, odio. Nisi dolorem, dignissimos nesciunt molestiae perferendis accusantium, mollitia aliquam corrupti dolorum architecto delectus. Facere, commodi dolore quam laborum vitae nihil iure! Numquam impedit doloribus in minima et! Soluta asperiores tenetur reprehenderit, perferendis eligendi obcaecati doloribus et, laudantium consectetur, laboriosam ipsa necessitatibus dolores tempore exercitationem natus nihil inventore illo debitis accusantium odit magnam id. Asperiores recusandae, officiis debitis aperiam dicta alias natus nihil ut ratione eligendi nesciunt optio dolores obcaecati amet ducimus distinctio minus quo aliquid vitae inventore possimus. Quam placeat eveniet sapiente! Iusto quas beatae porro quibusdam. Et atque autem numquam provident doloremque similique repellendus placeat fugiat, quae, consectetur aspernatur dolores impedit earum odit voluptate ad possimus quos laboriosam exercitationem! Non maxime rerum magni accusantium necessitatibus natus, architecto facilis asperiores enim voluptatum laudantium id, odit fuga impedit quam est ut. Dolores, modi minima incidunt repellat, aliquid numquam porro sequi delectus, vero rem quasi. Suscipit distinctio voluptates, sequi vero assumenda minima ducimus. Exercitationem, molestias temporibus, sint quo voluptates sed laborum excepturi quas culpa quae autem beatae nihil voluptate quos vero. Ab aspernatur, blanditiis accusantium et qui possimus eaque. Eligendi voluptates officiis adipisci molestiae porro soluta dolorum blanditiis repudiandae necessitatibus sunt. Tempore vero sequi facilis porro cupiditate magnam perspiciatis quibusdam quis velit officiis asperiores, numquam autem at fugiat mollitia consectetur. Reiciendis eum voluptatem deserunt culpa sapiente aut, voluptates maiores ut! Beatae aut quibusdam commodi voluptas! Labore possimus inventore unde modi temporibus beatae quod, repellendus doloribus voluptatum quam culpa adipisci rem nam ipsa architecto molestias! Totam sunt perspiciatis error sequi, culpa recusandae ipsa? A asperiores recusandae eum inventore, placeat ullam quod? Cumque officia consectetur amet asperiores nisi tenetur, voluptas laudantium molestiae totam tempore magni sunt, porro vel vero inventore nulla animi odio. Vel, labore natus officiis cum eligendi odit officia veritatis omnis quibusdam deserunt sapiente incidunt quos placeat voluptas, aspernatur laudantium eos necessitatibus ea possimus explicabo vitae assumenda laboriosam consequatur? Dolore praesentium modi corporis!
+    </p>
+    <script>
+
+        // first method
+        
+        // let element1 = document.getElementById('white')
+        // element1.addEventListener('click',function(){
+        //     document.body.style.backgroundColor = "#ffffff"
+        // })
+        // let element2 = document.getElementById('cornsilk')
+        // element2.addEventListener('click',function(){
+        //     document.body.style.backgroundColor = "#FFF8DC"
+        // })
+        // let element3 = document.getElementById('mintcream')
+        // element3.addEventListener('click',function(){
+        //     document.body.style.backgroundColor = "#F5FFFA"
+        // })
+        // let element4 = document.getElementById('black')
+        // element4.addEventListener('click',function(){
+        //     let txt = document.getElementsByClassName("change")
+        //     document.body.style.backgroundColor = "#000000"
+        //     for(let elm of txt){
+        //         elm.style.color = "white"
+        //     }
+        // })
+
+        // second method
+        function changeBG(color){
+            document.body.style.backgroundColor = color
+            let txt = document.getElementsByClassName('change')
+            if(color = "#000000"){
+                for(let elm of txt){
+                    elm.style.color = "white"
+                }
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
